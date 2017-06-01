@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arr">
+        <item>shit</item>
+        <item>shet</item>
+        <item>shut</item>
+        <item>shot</item>
+    </string-array>
+<!--style-->
+    <style name="BabyBlue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#efefef</item>
+        <item name="android:background">#006699</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BabyBlue.BigBlue">
+        <item name="android:textSize">45sp</item>
+    </style>
+
+    <!--theme-->
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:windowBackground">#009900</item>
+    </style>
+
+</resources>
